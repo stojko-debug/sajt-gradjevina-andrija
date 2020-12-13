@@ -32,12 +32,21 @@
 h1{
   text-align: center;
 }
-.caption {
+.box{
+  position:relative;
+}
+
+.img-title{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate( -50%, -50% );
+  color: #fff;
   text-align: center;
-  color: #F8CE46;
-  font-weight: bold;
+  left: 0;
+  right: 0;
+  top: 30%;
+  letter-spacing: 3px;
+}
+.textSlika{
+  font-size: 30px;
+  font-weight: bolder;
+  color:#F8CE46;
 }
