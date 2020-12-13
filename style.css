@@ -1,15 +1,9 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+ body {
   padding: 0;
   margin: 0;
-}
-footer {
-  position: fixed;
-  color: white;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#343A40 ;
+  background-color: #F1F1E9 !important;
+  
 }
 .galerija{
   margin: 10px 50px;
@@ -19,10 +13,30 @@ footer {
   padding: 15px;
   width: 200px;
   filter: grayscale(100%);
- 
 }
 .galerija img:hover{
   filter: grayscale(0%);
   transform: scale(1.1);
   
+}
+.nav-item{
+  padding-right: 20px !important;
+  font-size: 20px;
+}
+#navbarNav{
+  text-align: center;
+}
+#headerCSS{
+  background-color: #F8CE46 !important;
+}
+h1{
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #F8CE46;
 }
