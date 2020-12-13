@@ -32,11 +32,12 @@
 h1{
   text-align: center;
 }
-.centered {
+.caption {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
+  transform: translate( -50%, -50% );
+  text-align: center;
   color: #F8CE46;
+  font-weight: bold;
 }
