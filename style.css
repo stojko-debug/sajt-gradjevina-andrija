@@ -10,8 +10,8 @@
 }
 .galerija img{
   transition: 1s;
-  padding: 15px;
-  width: 200px;
+  padding: 1%;
+  width: 198px;
   filter: grayscale(100%);
 }
 .galerija img:hover{
